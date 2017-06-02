@@ -1,5 +1,6 @@
 FROM phusion/baseimage:0.9.19
 
+ENV DEBIAN_FRONTEND "noninteractive"
 ENV RUBY_MAJOR "2.3"
 ENV RUBY_VERSION "2.3.1"
 ENV RUBYGEMS_VERSION "2.6.10"
